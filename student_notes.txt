@@ -1,0 +1,12 @@
+The JavaScript code in the provided HTML file creates a mouseover and mouseout effect for the profile image in the "aside" section. When the mouse is hovered over the image, its width increases from 150px to 200px, and when the mouse is removed, the image returns to its original size of 150px.
+
+To access this feature, the user can follow these steps:
+
+1. Open the HTML file in a web browser.
+2. Scroll down to the "aside" section of the page.
+3. Hover the mouse over the profile image.
+4. Observe that the image size increases to 200px.
+5. Move the mouse away from the image.
+6. Observe that the image size returns to 150px.
+
+Alternatively, if the user wants to view the JavaScript code that creates this effect, they can open the HTML file in a text editor and locate the script tags at the bottom of the page. The code is commented and easy to understand, even for those with limited programming experience.

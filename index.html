@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Created by Mochammad Shaffa Prawiranegara on 02/03/2023 -->
+    <title>Personal Web | Mochammad Shaffa Prawiranegara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="index.html"><img src="image\prawira_logo.png" alt="Logo"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Welcome to My Website!</h1>
+            <p>I am a computer engineering student from the University of Indonesia and I am thrilled to share with you my journey as a participant in the Cloud Computing Learning Path of Bangkit 2023.</p>
+            <p>For those who are unfamiliar, Bangkit is a prestigious career readiness program that aims to develop top-notch technical talent for leading Indonesian technology companies and startups. The program is fully supported by three of Indonesia's tech giants - Google, GoTo, and Traveloka - making it an incredible opportunity for me and my fellow participants to learn from the best and gain invaluable industry exposure.</p>
+            <p>As a participant in the Cloud Computing Learning Path, I am excited to delve deeper into the world of cloud technology and explore its vast potential. I look forward to learning from seasoned experts, collaborating with like-minded individuals, and building practical skills that will enable me to make a meaningful impact in the tech industry.</p>
+            <p>Through this website, I hope to document my progress, share my insights, and showcase my achievements as I navigate this incredible learning journey. So join me as I embark on this exciting adventure and discover the endless possibilities of cloud computing!</p>
+        </article>
+    
+        <aside>
+            <h2>Biodata</h2>
+            <h3>Mochammad Shaffa Prawiranegara</h3>
+            <img id="profile-img" src="image\foto_diri.jpg" alt="Your Image" width="150">
+            <p>Hi, my name is Shaffa. I am a computer engineering student based in Indonesia, and I have a deep interest in the world of cloud engineering.</p>
+            <ul>
+                <li><strong>Email:</strong> shaffaprawira@gmail.com</li>
+                <li><strong>Phone:</strong> 081283456051</li>
+                <li><strong>LinkedIn:</strong> https://www.linkedin.com/in/shaffaprawira/</li>
+            </ul>
+        </aside>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Personal Web | Mochammad Shaffa Prawiranegara</p>
+    </footer>
+    
+    <script>
+        // Get the profile image element
+        const profileImg = document.getElementById('profile-img');
+    
+        // Add a mouseover event listener to the image
+        profileImg.addEventListener('mouseover', () => {
+            // Increase the image size on mouseover
+            profileImg.style.width = '200px';
+        });
+    
+        // Add a mouseout event listener to the image
+        profileImg.addEventListener('mouseout', () => {
+            // Reset the image size on mouseout
+            profileImg.style.width = '150px';
+        });
+    </script>
+</body>
+</html>

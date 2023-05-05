@@ -1,0 +1,153 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul li:first-child img {
+    margin-top: -6px;
+    margin-bottom: -15px; /* adjust the value as needed */
+  }  
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li.logo {
+    width: 150px; /* adjust the width as needed */
+}
+
+
+nav ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Main Styles */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    flex: 1 1 60%;
+    padding: 20px;
+}
+
+aside {
+    flex: 1 1 30%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Aside Styles */
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li strong {
+    display: inline-block;
+    width: 80px;
+}
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    /* Modify the main container to a single column */
+    main {
+        flex-direction: column;
+    }
+  
+    /* Make both columns take up the full width */
+    article, aside {
+        flex: 1 1 100%;
+    }
+  
+    /* Reduce the font size of the h1 element */
+    h1 {
+        font-size: 24px;
+    }
+  
+    /* Reduce the font size of the p element */
+    p {
+        font-size: 16px;
+    }
+  
+    /* Reduce the font size of the h2 element */
+    h2 {
+        font-size: 20px;
+    }
+  
+    /* Adjust the padding of the header and footer elements */
+    header, footer {
+        padding: 10px;
+    }
+}
+
+
